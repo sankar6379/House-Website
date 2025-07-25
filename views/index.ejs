@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dream Homes | House Selling Website</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <!-- ================= Home Section ================= -->
+  <section id="home">
+    <video autoplay muted loop id="bgVideo">
+      <source src="/videos/video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="overlay">
+      <h1>Find Your Dream Home</h1>
+      <p>Modern Living in Prime Locations</p>
+      <a href="#houses" class="btn">Explore Houses</a>
+    </div>
+  </section>
+
+  <!-- ================= House Sale Section ================= -->
+  <section id="houses">
+    <h2 class="section-title">Houses for Sale</h2>
+    <div class="house-cards">
+
+      <!-- House Card 1 -->
+      <div class="house-card">
+        <img src="/image/house1.jpg" alt="House 1" />
+        <div class="card-info">
+          <h3>Luxury Villa in California</h3>
+          <p>5 Beds • 4 Baths • 3500 sqft</p>
+          <p class="price">$1,200,000</p>
+          <button class="details-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- House Card 2 -->
+      <div class="house-card">
+        <img src="/image/house2.jpg" alt="House 2" />
+        <div class="card-info">
+          <h3>Modern Apartment in New York</h3>
+          <p>3 Beds • 2 Baths • 1600 sqft</p>
+          <p class="price">$850,000</p>
+          <button class="details-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- House Card 3 -->
+      <div class="house-card">
+        <img src="/image/house3.jpg" alt="House 3" />
+        <div class="card-info">
+          <h3>Beach House in Florida</h3>
+          <p>4 Beds • 3 Baths • 2800 sqft</p>
+          <p class="price">$980,000</p>
+          <button class="details-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- House Card 4 -->
+      <div class="house-card">
+        <img src="/image/house4.jpg" alt="House 4" />
+        <div class="card-info">
+          <h3>Suburban Home in Texas</h3>
+          <p>3 Beds • 2 Baths • 2000 sqft</p>
+          <p class="price">$620,000</p>
+          <button class="details-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- House Card 5 -->
+      <div class="house-card">
+        <img src="/image/house5.jpg" alt="House 5" />
+        <div class="card-info">
+          <h3>Penthouse in Chicago</h3>
+          <p>2 Beds • 2 Baths • 1800 sqft</p>
+          <p class="price">$740,000</p>
+          <button class="details-btn">View Details</button>
+        </div>
+      </div>
+
+      <!-- House Card 6 -->
+      <div class="house-card">
+        <img src="/image/house6.jpg" alt="House 6" />
+        <div class="card-info">
+          <h3>Mountain Home in Colorado</h3>
+          <p>4 Beds • 3 Baths • 3200 sqft</p>
+          <p class="price">$880,000</p>
+          <button class="details-btn">View Details</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= About Section ================= -->
+  <section id="about">
+    <h2 class="section-title">About Us</h2>
+    <div class="about-content">
+      <p>
+        Welcome to Dream Homes – your trusted partner in finding the perfect property.
+        With over 20 years of experience in real estate, we are committed to delivering
+        quality homes, transparent deals, and excellent customer service.
+      </p>
+      <p>
+        Whether you're buying your first home or looking for an investment property, our
+        curated listings and professional support will help you every step of the way.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= Contact Section ================= -->
+  <section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <form action="/contact" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- ================= Footer ================= -->
+  <footer>
+    <p>&copy; 2025 Dream Homes. All Rights Reserved.</p>
+  </footer>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
